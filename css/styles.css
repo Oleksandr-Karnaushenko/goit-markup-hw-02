@@ -1,0 +1,103 @@
+body {
+  font-family: 'roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2%;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #fff;
+}
+
+button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #404bbf;
+}
+
+a {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.333;
+  text-transform: uppercase;
+}
+
+/*header*/
+/* navigation*/
+
+.navigation .raleway {
+  font-family: 'raleway', sans-serif;
+}
+.navigation span {
+  color: #4d5ae5;
+}
+.navigation a {
+  color: #2e2f42;
+}
+.address a {
+  color: #434455;
+}
+.navigation a:hover,
+.address a:hover {
+  color: #404bbf;
+}
+/*main*/
+main h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 1.071;
+}
+main h2 {
+  color: #2e2f42;
+  font-weight: 900;
+  font-size: 36px;
+}
+main h3 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 20px;
+}
+/*section 1*/
+
+.hero-image {
+  background-color: #2e2f42;
+}
+
+/*section 2*/
+
+.info {
+}
+
+/*section 3*/
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+/*section 4*/
+
+.our-portfolio {
+}
+
+/*footer*/
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+footer a {
+  color: #f4f4fd;
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+}
+footer span {
+  color: #4d5ae5;
+}
