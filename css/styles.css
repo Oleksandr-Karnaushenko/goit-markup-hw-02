@@ -1,9 +1,9 @@
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
   background-color: #fff;
@@ -15,10 +15,13 @@ button {
   background-color: #4d5ae5;
   font-size: 1em;
   line-height: 1.5;
-  letter-spacing: 4%;
-  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
 button:hover {
+  background-color: #404bbf;
+}
+button:focus {
   background-color: #404bbf;
 }
 
@@ -32,20 +35,31 @@ a {
 /*header*/
 /* navigation*/
 
-.navigation .raleway {
-  font-family: 'raleway', sans-serif;
-}
-.navigation span {
-  color: #4d5ae5;
-}
 .navigation a {
   color: #2e2f42;
 }
+.navigation .logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.navigation span {
+  color: #2e2f42;
+}
+.navigation .studio:focus {
+  color: #404bbf;
+}
 .address a {
   color: #434455;
+  font-style: normal;
 }
 .navigation a:hover,
 .address a:hover {
+  color: #404bbf;
+}
+.address a:focus {
   color: #404bbf;
 }
 /*main*/
@@ -54,17 +68,23 @@ main h1 {
   font-weight: 900;
   font-size: 56px;
   line-height: 1.071;
+  text-align: center;
 }
 main h2 {
   color: #2e2f42;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 main h3 {
   color: #2e2f42;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+
 /*section 1*/
 
 .hero-image {
@@ -95,9 +115,13 @@ footer {
 }
 footer a {
   color: #f4f4fd;
-  font-family: 'raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 footer span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
