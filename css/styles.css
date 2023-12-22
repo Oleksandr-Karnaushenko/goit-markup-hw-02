@@ -9,26 +9,6 @@ body {
   background-color: #fff;
 }
 
-button {
-  cursor: pointer;
-  color: #fff;
-  background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-}
-button:hover {
-  background-color: #404bbf;
-}
-button:focus {
-  background-color: #404bbf;
-}
-
-address {
-  font-style: normal;
-}
 /*header*/
 /* navigation*/
 
@@ -48,21 +28,24 @@ address {
 .navigation span {
   color: #2e2f42;
 }
-.navigation .studio:focus {
+.link-effects:hover {
   color: #404bbf;
+}
+.navigation-ul li:first-child a:focus {
+  color: #404bbf;
+}
+
+/*address*/
+.address {
+  font-style: normal;
 }
 .address a {
   color: #434455;
 }
-.navigation a:hover,
-.address a:hover {
-  color: #404bbf;
-}
-.address a:focus {
-  color: #404bbf;
-}
+
 /*main*/
-main h1 {
+
+.title-1 {
   color: #fff;
   font-weight: 900;
   font-size: 56px;
@@ -70,7 +53,7 @@ main h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-main h2 {
+.title-2 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 36px;
@@ -79,7 +62,7 @@ main h2 {
   text-align: center;
   text-transform: capitalize;
 }
-main h3 {
+.title-3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -93,6 +76,22 @@ main h3 {
   background-color: #2e2f42;
 }
 
+.btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #404bbf;
+}
+.btn:focus {
+  background-color: #404bbf;
+}
 /*section 2*/
 
 .info {
@@ -103,7 +102,7 @@ main h3 {
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team li {
+.our-team-li {
   background-color: #fff;
 }
 
@@ -114,11 +113,11 @@ main h3 {
 
 /*footer*/
 
-footer {
+.footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
-footer a {
+.footer-link {
   color: #f4f4fd;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -128,6 +127,6 @@ footer a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-footer span {
+.footer-span {
   color: #f4f4fd;
 }
