@@ -42,6 +42,9 @@ body {
 .address a {
   color: #434455;
 }
+.address .link-effects:focus {
+  color: #404bbf;
+}
 
 /*main*/
 
