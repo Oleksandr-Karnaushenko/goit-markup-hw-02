@@ -26,13 +26,6 @@ button:focus {
   background-color: #404bbf;
 }
 
-a {
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 1.333;
-  text-transform: uppercase;
-}
-
 address {
   font-style: normal;
 }
@@ -41,13 +34,16 @@ address {
 
 .navigation a {
   color: #2e2f42;
+  font-weight: 500;
 }
 .navigation .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .navigation span {
   color: #2e2f42;
@@ -107,6 +103,9 @@ main h3 {
 .our-team {
   background-color: #f4f4fd;
 }
+.our-team li {
+  background-color: #fff;
+}
 
 /*section 4*/
 
@@ -122,6 +121,7 @@ footer {
 footer a {
   color: #f4f4fd;
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
